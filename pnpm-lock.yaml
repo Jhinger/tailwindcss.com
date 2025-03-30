@@ -53,6 +53,9 @@ importers:
       open-graph-scraper-lite:
         specifier: ^2.1.0
         version: 2.1.0
+      postcss@insiders:
+        specifier: link:tailwindcss/postcss@insiders
+        version: link:tailwindcss/postcss@insiders
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -63,8 +66,8 @@ importers:
         specifier: ^1.26.1
         version: 1.26.1
       tailwindcss:
-        specifier: 0.0.0-insiders.cc3e852
-        version: 0.0.0-insiders.cc3e852
+        specifier: 0.0.0-insiders.c32b608
+        version: 0.0.0-insiders.c32b608
     devDependencies:
       '@svgr/webpack':
         specifier: ^8.1.0
@@ -2114,6 +2117,9 @@ packages:
 
   tabbable@6.2.0:
     resolution: {integrity: sha512-Cat63mxsVJlzYvN51JmVXIgNoUokrIaT2zLclCXjRd8boZ0004U4KCs/sToJ75C6sdlByWxpYnb5Boif1VSFew==}
+
+  tailwindcss@0.0.0-insiders.c32b608:
+    resolution: {integrity: sha512-GmqUQelFaoDlePMCYOrmGR+mNZf9AQ2nCvRyaGTlvDGe9RObQvM07Jg5XX78INNM9Gn/ILm33V2ucSdr4uen0w==}
 
   tailwindcss@0.0.0-insiders.cc3e852:
     resolution: {integrity: sha512-32uCAPwVdFqI/lZ3rjFNYtaCV6CRu1TEMz5ekiKlov/Oj0INyJxllHOHWXQeHb3hr9BHrJGbrXasnd1TLMhofA==}
@@ -4510,6 +4516,8 @@ snapshots:
       picocolors: 1.1.1
 
   tabbable@6.2.0: {}
+
+  tailwindcss@0.0.0-insiders.c32b608: {}
 
   tailwindcss@0.0.0-insiders.cc3e852: {}
 
